@@ -5,7 +5,7 @@ import AuthorUls from './AuthorUls'
 
 export default function Author() {
   return (
-    <div className="container author">
+    <div id="author" className="container author">
         <div className="author-photo">
         </div>
         <div className="author-info">

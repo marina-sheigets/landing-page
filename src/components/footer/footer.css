@@ -27,12 +27,12 @@
 
 .footer-sections li,
 .footer-sections a,
-.copyright
+.copy
 {
     color:rgba(255,255,255,0.6);
 }
 
-.copyright{
+.copy{
     text-align: center;
 }
 

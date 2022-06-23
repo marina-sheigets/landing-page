@@ -48,7 +48,7 @@ export default function Footer() {
 
                 </div>
             </div>
-           <p className="copyright">Copyright ©2022 All rights reserved | This template is made with  by Sheigets Marina</p>
+           <p className="copy">Copyright ©2022 All rights reserved | This template is made with  by Sheigets Marina</p>
         </div>
     </div>
   )

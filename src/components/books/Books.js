@@ -12,7 +12,7 @@ export default function Books() {
 
        <div className="images">
            {
-            data.map(book=><BooksItem key={data.id} book={book}/>)
+            data.map(book=><BooksItem key={book.id} book={book}/>)
            }
        </div>
     </div>

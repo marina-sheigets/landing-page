@@ -67,7 +67,9 @@ transform-origin: bottom left;
     background-color:transparent;
 }
 
-
+.active{
+    border-bottom:3px var(--secondary-color) solid;
+}
 
 .close.burger-button::before{
     transition: var(--transition);
@@ -89,8 +91,8 @@ transform-origin: bottom left;
 
     .burger-button{ 
     display: block;
-    position: fixed;
-    right:1rem;
+    position: absolute;
+    right:0.5rem;
     top:0.3rem;
     width:35px;
     height:35px;
@@ -113,8 +115,8 @@ transform-origin: bottom left;
     }
 
     .burger-button::after{
-    bottom:0;
-    height:3px;
+        bottom:0;
+        height:3px;
     }
 
     .burger-button span{
@@ -127,7 +129,6 @@ transform-origin: bottom left;
     width:100%;
     }
 }
-
 
 
 

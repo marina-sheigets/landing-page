@@ -11,7 +11,7 @@ const Header = () => {
     }
   return (
 
-       <div class="header">
+       <div className="header">
           {
               isMobile?  <MenuForMobiles/> : <Menu/>      
           }

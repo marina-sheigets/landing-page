@@ -6,7 +6,7 @@ import {FaTelegramPlane} from "react-icons/fa"
 import {GiEarthAmerica} from "react-icons/gi"
 export default function Contact() {
   return (
-    <div className="container contact">
+    <div id="contact" className="container contact">
         <div className="headings">
             <h1>Contact Me</h1>
             <p>Far far away, behind the word mountains,
