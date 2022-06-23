@@ -16,3 +16,7 @@
     align-items:center;
     justify-content: space-around;
 }
+
+.menu-mobile-list a{
+    color:var(--main-color);
+}

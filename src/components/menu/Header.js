@@ -10,14 +10,15 @@ const Header = () => {
        burgerButton.classList.toggle("close");
     }
   return (
-       <div>
-        {
-            isMobile?  <MenuForMobiles/> : <Menu/>      
-        }
-       
-        <div onClick={showMenu} className="burger-button">
-                <span></span>
-        </div>
+
+       <div class="header">
+          {
+              isMobile?  <MenuForMobiles/> : <Menu/>      
+          }
+        
+          <div onClick={showMenu} className="burger-button">
+                  <span></span>
+          </div>
        </div>
   )
 }

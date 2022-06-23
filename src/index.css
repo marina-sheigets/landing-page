@@ -6,6 +6,7 @@ body{
 }
 
 *{
+    scroll-behavior: smooth;
     outline: none;
     list-style: none;
     text-decoration: none;
@@ -13,9 +14,22 @@ body{
 
 .container{
     width:80%;
+    margin:0 auto;
 }
 
 :root{
     --main-color:#051441;
     --secondary-color:#17b978;
+    --background-color:#f5f4fb;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    display: block;
+    margin:0;
+}
+
+/*For buttons*/
+.hover:hover{
+    transform: scale(1.05);
+    background-color:#0d5e3d;
 }
