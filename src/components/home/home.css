@@ -94,9 +94,8 @@
     }
     .text-div .buy-now{
         position: absolute;
-        bottom:0;
-        margin:0;
-        transform: translateY(100%);
+        bottom:-50px;
+        margin:0;  
     }
 
 }
